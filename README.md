@@ -48,5 +48,6 @@ The summarizer is powered by a **T5 Transformer** model:
 * **Deep Learning Engine:** [PyTorch], [HuggingFace Transformers].
 
 
+```
 
 ##  Model can't be uploaded due its size use the Text_summarizer model Training to create your own model .
