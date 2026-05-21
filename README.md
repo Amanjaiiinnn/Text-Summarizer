@@ -30,52 +30,8 @@ Text_Summarizer/
 ├── index.html                           # Single-page frontend template (Jinja2)
 ├── requirements.txt                     # Python packages required for the project
 └── README.md                            # Project documentation
+
 ```
-
----
-
-## 🛠️ Prerequisites & Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Text_Summarizer.git
-cd Text_Summarizer
-```
-
-### 2. Set Up a Virtual Environment (Recommended)
-This isolates the project dependencies from your system's global Python environment:
-
-* **Windows (PowerShell):**
-  ```powershell
-  python -m venv venv
-  .\venv\Scripts\Activate.ps1
-  ```
-* **macOS / Linux:**
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-  ```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🏃 Run the Application
-
-Once your dependencies are installed, start the local development server with **Uvicorn**:
-
-```bash
-uvicorn app:app --reload
-```
-
-Once the server is running, open your web browser and navigate to:
-* **Web App UI:** [http://127.0.0.1:8000](http://127.0.0.1:8000)
-* **Interactive API Documentation (Swagger UI):** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
----
 
 ## 🤖 Model & Training
 
@@ -87,7 +43,7 @@ The summarizer is powered by a **T5 Transformer** model:
 
 ## ⚡ Tech Stack
 
-* **Frontend:** Semantic HTML5, Vanilla CSS3 (responsive design), Modern ES6 Javascript (`Fetch API`).
-* **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (Python ASGI Framework), [Jinja2 Templates](https://jinja.palletsprojects.com/) (HTML rendering).
-* **Deep Learning Engine:** [PyTorch](https://pytorch.org/), [HuggingFace Transformers](https://huggingface.co/docs/transformers/index).
-* **Tokenizer Platform:** SentencePiece.
+* **Frontend:** Semantic HTML5, CSS (responsive design), Modern ES6 Javascript (`Fetch API`).
+* **Backend:** [FastAPI] (Python ASGI Framework), [Jinja2 Templates] (HTML rendering).
+* **Deep Learning Engine:** [PyTorch], [HuggingFace Transformers].
+
