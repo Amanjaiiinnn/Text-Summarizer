@@ -47,3 +47,6 @@ The summarizer is powered by a **T5 Transformer** model:
 * **Backend:** [FastAPI] (Python ASGI Framework), [Jinja2 Templates] (HTML rendering).
 * **Deep Learning Engine:** [PyTorch], [HuggingFace Transformers].
 
+
+
+##  Model can't be uploaded due its size use the Text_summarizer model Training to create your own model .
